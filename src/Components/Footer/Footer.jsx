@@ -10,9 +10,9 @@ const Footer = () => {
               <Email>rahul.v7800@gmail.com</Email>
           </TextWrapper>
           <SocialIcons>
-              <Github/>
-              <Instagram/>
-              <Twitter/>
+              <a href='https://github.com/Rahulvedi' target='new'><Github/></a>
+              <a href='https://www.instagram.com/rahulvedi60/' target='new'><Instagram/></a>
+              <a href='https://twitter.com/RahulVedi10' target='new'><Twitter/></a>
           </SocialIcons>
          </Info>
           <Copyright>© 2020 copyright all right reserved</Copyright>

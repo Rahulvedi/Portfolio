@@ -70,3 +70,4 @@ margin: 0;
 text-align: center;
 color: white;
 `
+export const Link=styled.a``
