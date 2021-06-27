@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Box, Button } from "../../globalstyles";
-import HeroSvg from '../../Images/Welcome.svg'
+import HeroSvg from '../../Images/Hero.svg'
 
 
 // Element
@@ -53,7 +53,10 @@ export const HeroImg = styled.img.attrs({
 }
 `
 export const TextWrapper = styled.div`
-
+@media screen and (max-width:768px){
+    font-size: 2rem;
+    text-align: center;
+}
 `
 export const Title = styled.p`
 color: #6C63FF;
