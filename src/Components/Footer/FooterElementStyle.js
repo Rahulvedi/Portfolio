@@ -28,6 +28,10 @@ color: white;
 cursor: pointer;
 font-size: 2.5rem;
 margin-right: 1rem;
+transition: all ease 300ms;
+&:hover{
+    transform: translateY(-10px);
+}
 @media screen and (max-width:768px){
     font-size: 2rem;
     margin-right: .5rem;
@@ -37,7 +41,10 @@ export const Instagram=styled(AiFillInstagram)`
 color: white;
 cursor: pointer;
 font-size: 2.5rem;
-margin-right: 1rem;
+margin-right: 1rem;transition: all ease 300ms;
+&:hover{
+    transform: translateY(-10px);
+}
 @media screen and (max-width:768px){
     font-size: 2rem;
     margin-right: .5rem;
@@ -47,7 +54,10 @@ export const Twitter=styled(AiOutlineTwitter)`
 color: white;
 cursor: pointer;
 font-size: 2.5rem;
-margin-right: 1rem;
+margin-right: 1rem;transition: all ease 300ms;
+&:hover{
+    transform: translateY(-10px);
+}
 @media screen and (max-width:768px){
     font-size: 2rem;
     margin-right: .5rem;
