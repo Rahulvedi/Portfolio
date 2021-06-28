@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { Container } from "react-bootstrap";
 export const GlobalStyles = createGlobalStyle`
 *{
     box-sizing: border-box;
