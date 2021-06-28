@@ -4,6 +4,7 @@ import Aboutsvg from '../../Images/About.svg'
 // Element
 
 export const Section=styled(Box)`
+max-width: 95rem;
 padding-top: 8rem ;
 padding-bottom: 8rem ;
 display: flex;

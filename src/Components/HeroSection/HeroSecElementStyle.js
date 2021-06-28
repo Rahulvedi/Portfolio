@@ -5,6 +5,7 @@ import HeroSvg from '../../Images/Hero.svg'
 
 // Element
 export const HeroContainer = styled(Box)`
+max-width: 95rem;
 padding-top: 8rem ;
 padding-bottom: 8rem ;
 display: flex;

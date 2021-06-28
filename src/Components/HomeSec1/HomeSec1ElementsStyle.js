@@ -4,6 +4,7 @@ import SectionSvg from '../../Images/ContactHome.svg'
 
 // Elements
 export const SectionBox = styled(Box)`
+max-width: 95rem;
 position: relative;
 padding: 0;
 `

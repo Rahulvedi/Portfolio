@@ -7,8 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
 }
 `
-export const Box = styled(Container)`
-max-width: 90rem;
+export const Box = styled.div`
 align-items: center;
 z-index: 1;
 margin-right: auto;

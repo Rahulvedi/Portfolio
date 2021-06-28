@@ -4,14 +4,20 @@ import { Link } from 'react-router-dom'
 import { FiAperture } from 'react-icons/fi'
 import { FaTimes } from 'react-icons/fa'
 import { FaBars } from 'react-icons/fa'
-const NavBarContainer = styled(Box)`
-display: flex;
-justify-content: space-between;
-height: 4rem;
+const Container=styled.div`
+width: 100%;
 position: sticky;
 z-index: 999;
 background-color: #fff;
 top: 0;
+
+`
+const NavBarContainer = styled(Box)`
+display: flex;
+max-width: 90rem;
+justify-content: space-between;
+
+
 `
 const NavLogo = styled(Link)`
 cursor: pointer;
@@ -116,4 +122,4 @@ const NavButton=styled(Button)`
   display:none;
 }
 `
-export {  NavBarContainer, NavLogo, NavIcon, MobileMenu, HamburgerIcon, CloseIcon, NavItem, NavLink, NavMenu,NavButton}
+export {  NavBarContainer, NavLogo, NavIcon, MobileMenu, HamburgerIcon, CloseIcon, NavItem, NavLink, NavMenu,NavButton,Container}
