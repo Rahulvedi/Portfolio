@@ -20,7 +20,7 @@ export const Content = styled.div`
 width: 50%;
 max-width: 500px;
 padding-right: 2rem;
-padding-left: 2rem;
+padding-left: 4rem;
 @media screen and (max-width:767px){
  display: flex;
 flex-direction: column;

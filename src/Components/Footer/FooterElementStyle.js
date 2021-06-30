@@ -66,12 +66,14 @@ margin-right: 1rem;transition: all ease 300ms;
 `
 export const Name=styled.h4`
 color: white;
+margin-bottom: 0;
 @media screen and (max-width:768px){
     font-size: 1rem;
 }
 `
 export const Email=styled.p`
 color: white;
+margin-bottom: 0;
 @media screen and (max-width:768px){
 font-size: .8rem;
 }

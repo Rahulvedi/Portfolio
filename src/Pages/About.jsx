@@ -1,10 +1,11 @@
 import React from 'react'
-import { Header,Footer,AboutSec1} from '../Components/default'
+import { Header,Footer,AboutSec1,Skills} from '../Components/default'
 const About = () => {
     return (
         <>
             <Header/>
             <AboutSec1/>
+            <Skills/>
             <Footer/>
         </>
     )
