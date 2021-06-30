@@ -1,7 +1,7 @@
 import React from 'react'
 import { Section, ImgWrapper, AboutImg, TextWrapper, Text } from './AboutSecElementStyle'
 import { Button } from '../../globalstyles'
-import  {BsDownload} from 'react-icons/bs'
+import { BsDownload } from 'react-icons/bs'
 const AboutSec1 = () => {
     return (
         <Section>
@@ -10,7 +10,10 @@ const AboutSec1 = () => {
             </ImgWrapper>
             <TextWrapper>
                 <Text>I am a web developer from India,Rajasthan  and currently living in sikar.I enjoy  building everything from small business sites to rich interactive web apps.If you are a business seaking a web presence or a employer looking to hire,you can get in touch with me here.</Text>
-               <a href='https://drive.google.com/u/0/uc?id=1Id5FUN-u7tIilJ69t2AdbIcdIUYx5kBd&export=download'><Button><BsDownload/> Resume</Button></a>
+                <Button style={{
+                    display: 'block',
+                    margin: 'auto',
+                }}><a href='https://drive.google.com/u/0/uc?id=1Id5FUN-u7tIilJ69t2AdbIcdIUYx5kBd&export=download' style={{color:'white'}}><BsDownload/> Resume</a></Button>
             </TextWrapper>
         </Section>
     )
