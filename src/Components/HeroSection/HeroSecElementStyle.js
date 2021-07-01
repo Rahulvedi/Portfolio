@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Box, Button } from "../../globalstyles";
+import { Box } from "../../globalstyles";
 import HeroSvg from '../../Images/Hero.svg'
 
 
@@ -71,11 +71,4 @@ font-size: 3rem;
 margin-bottom: 1rem;
 font-weight: 700;
 color: #484747;
-`
-export const HeroButton = styled(Button)`
-@media screen and (max-width:768px){
-    /* width:60%; */
-    display:block;
-    margin: auto;
-}
 `

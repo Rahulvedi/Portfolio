@@ -5,6 +5,12 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
 }
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}
 `
 export const Box = styled.div`
 align-items: center;
@@ -19,14 +25,22 @@ padding-right: 30px;
 }
 `
 export const Button = styled.button`
-background-color: ${({ primary }) => (primary ? '#6C63FF' : '#FF9800')};
-color: #fff;
+background-color: #FF9800;
+color: white;
 font-weight: 500;
 font-size: ${({ sm }) => (sm ? '1rem' : '1.5rem')};
 height: ${({ sm }) => (sm ? '2rem' : '3rem')};
 border-radius: .75rem;
 outline: none;
-border:none ;
+border:none;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 padding:  0 1.5rem;
+&:hover{
+  background-color: #FF9800;
+  color: #fff;
+}
+@media screen and (max-width:768px){
+  display: block;
+  margin: auto;
+}
 `

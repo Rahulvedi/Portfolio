@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Box,Button} from "../../globalstyles";
+import { Box} from "../../globalstyles";
 import SectionSvg from '../../Images/ContactHome.svg'
 
 // Elements
@@ -65,12 +65,5 @@ export const Text=styled.p`
 font-size: 1.5rem;
 @media screen and (max-width:768px){
     font-size: 1.2rem;
-}
-`
-export const SecButton=styled(Button)`
-@media screen and (max-width:768px){
-    display: block;
-    margin: auto;
-    /* height: 60%; */
 }
 `

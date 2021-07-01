@@ -1,6 +1,7 @@
 import React from 'react'
 import {BiSearch} from 'react-icons/bi'
-import { Content,HeroImg ,HeroContainer,TextWrapper,Title,Heading,ImgWrapper,HeroButton} from './HeroSecElementStyle'
+import { Button } from '../../globalstyles'
+import { Content,HeroImg ,HeroContainer,TextWrapper,Title,Heading,ImgWrapper} from './HeroSecElementStyle'
 
 const HeroSection = () => {
     return (
@@ -10,7 +11,7 @@ const HeroSection = () => {
                   <Title>Web Designer/ Developer</Title>
                   <Heading>I make Your Business Looks great</Heading>
               </TextWrapper>
-              <HeroButton style={{margin:'auto'}}><BiSearch/> My work</HeroButton>
+              <Button style={{margin:'auto'}}><BiSearch/> My work</Button>
           </Content>
           <ImgWrapper>
              <HeroImg/>
