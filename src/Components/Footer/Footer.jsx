@@ -14,7 +14,7 @@ const Footer = () => {
               <a href='https://twitter.com/RahulVedi10' target='new'><Twitter/></a>
           </SocialIcons>
          </Info>
-          <Copyright>© 2020 copyright all right reserved</Copyright>
+          <Copyright>© 2021 copyright all right reserved</Copyright>
        </FooterBox>
     )
 }

@@ -1,17 +1,16 @@
 import styled from "styled-components";
 import { Box } from "../../globalstyles";
-import HeroSvg from '../../Images/Hero.svg'
-
+import HeroSvg from '../../Images/Designer.svg'
 
 // Element
 export const HeroContainer = styled(Box)`
 max-width: 95rem;
-padding-top: 8rem ;
-padding-bottom: 8rem ;
+padding-top: 9rem ;
+padding-bottom: 9rem ;
 display: flex;
 flex-wrap: wrap-reverse;
 justify-content: space-between;
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     padding-top: 4rem ;
     padding-bottom: 4rem ;
 }
@@ -21,7 +20,7 @@ width: 50%;
 max-width: 500px;
 padding-right: 2rem;
 padding-left: 4rem;
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
  display: flex;
 flex-direction: column;
 width: 100%;
@@ -36,7 +35,7 @@ width: 50%;
 padding-right: 2rem;
 padding-left: 2rem;
 justify-content: center;
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     width: 100%;
     height: 50%;
     padding: 0 0 1rem 0;

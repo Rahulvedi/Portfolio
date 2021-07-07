@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Box} from "../../globalstyles";
-import SectionSvg from '../../Images/ContactHome.svg'
+import SectionSvg from '../../Images/Hiring.svg'
 
 // Elements
 export const SectionBox = styled(Box)`

@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { motion } from "framer-motion";
 export const GlobalStyles = createGlobalStyle`
 *{
     box-sizing: border-box;
@@ -24,7 +25,7 @@ padding-right: 30px;
   padding-left: 1rem;
 }
 `
-export const Button = styled.button`
+export const Button = styled(motion.button)`
 background-color: #FF9800;
 color: white;
 font-weight: 500;

@@ -26,7 +26,7 @@ const Header = () => {
                         <NavLink onClick={handleClick} to='/work'>Work</NavLink>
                     </NavItem>
                 </NavMenu>
-                <NavButton sm>Contact Me</NavButton>
+                <NavButton sm> Contact Me</NavButton>
             </NavBarContainer>
         </Container>
     )

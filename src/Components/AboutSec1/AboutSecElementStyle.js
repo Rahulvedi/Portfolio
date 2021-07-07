@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Box } from "../../globalstyles";
-import Aboutsvg from '../../Images/About.svg'
+import Aboutsvg from '../../Images/Hiring.svg'
 // Element
 
 export const Section=styled(Box)`
@@ -20,7 +20,7 @@ width: 50%;
 padding-right: 2rem;
 padding-left: 2rem;
 justify-content: center;
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     width: 100%;
     height: 50%;
     padding: 0 0 1rem 0;
@@ -34,10 +34,11 @@ padding-left:2rem ;
     padding: 0;
 }
 `
-export const Text=styled.p`
-font-size: 1.5rem;
-text-align: center;
+export const Text=styled.h1`
+font-size: 2rem;
+margin-bottom: 2rem;
 @media screen and (max-width:768px){
+text-align: center;
     font-size: 1.2rem;
 }
 `
