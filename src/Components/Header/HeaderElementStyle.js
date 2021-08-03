@@ -6,7 +6,6 @@ import { FaTimes } from 'react-icons/fa'
 import { FaBars } from 'react-icons/fa'
 const Container=styled.div`
 width: 100%;
-position: sticky;
 z-index: 999;
 background-color: #fff;
 top: 0;
@@ -51,16 +50,14 @@ color: white;
 }
 `
 const HamburgerIcon = styled(FaBars)`
-color:#000;
+color:var(--color--primary);
 font-size: 1.5rem;
 cursor: pointer;
-${FaBars}
 `
 const CloseIcon = styled(FaTimes)`
 color:#000;
 font-size: 1.5rem;
 cursor: pointer;
-/* ${FaTimes} */
 `
 const NavMenu = styled.ul`
 display: flex;
@@ -102,12 +99,10 @@ font-weight: bold;
 display: flex;
 align-items: center;
 padding:  0.5rem 2rem;
-text-decoration: none;
 &:hover{
   color: #6C63FF;
    transition: all 0.3s ease;
    /* transform: scale(1.2); */
-    text-decoration: none;
  }
 @media screen and (max-width:768px){
  align-items: center;

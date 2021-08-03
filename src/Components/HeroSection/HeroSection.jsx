@@ -12,7 +12,7 @@ const HeroSection = () => {
                   <Title>Web Designer/ Developer</Title>
                   <Heading>I make Your Business Looks great</Heading>
               </TextWrapper>
-              <Link to='/work'><Button style={{margin:'auto'}} whileHover={{ scale: 1.1 }} ><BiSearch/> My work</Button></Link>
+              <Link to='/work'><Button><BiSearch style={{marginRight:'.5rem'}}/>My work</Button></Link>
           </Content>
           <ImgWrapper  >
              <HeroImg />

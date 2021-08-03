@@ -69,5 +69,5 @@ export const Heading = styled.h1`
 font-size: 3rem;
 margin-bottom: 1rem;
 font-weight: 700;
-color: #484747;
+color: var(--color--DimGrey);
 `

@@ -1,10 +1,15 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { motion } from "framer-motion";
 export const GlobalStyles = createGlobalStyle`
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+:root{
+  --color--primary:#6C63FF;
+  --color--secondary:#FF9800;
+  --color--DimGrey:#696969;
+
 }
 a{
   text-decoration: none;
@@ -25,9 +30,13 @@ padding-right: 30px;
   padding-left: 1rem;
 }
 `
-export const Button = styled(motion.button)`
-background-color: #FF9800;
+export const Button = styled.button`
+background-color: var(--color--secondary);
+display: flex;
 color: white;
+align-items: center;
+justify-content: center;
+cursor: pointer;
 font-weight: 500;
 font-size: ${({ sm }) => (sm ? '1rem' : '1.5rem')};
 height: ${({ sm }) => (sm ? '2rem' : '3rem')};
@@ -37,8 +46,9 @@ border:none;
 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 padding:  0 1.5rem;
 &:hover{
-  background-color: #FF9800;
+  background-color: var(--color--secondary);
   color: #fff;
+  transform: scale(1.1);
 }
 @media screen and (max-width:768px){
   display: block;

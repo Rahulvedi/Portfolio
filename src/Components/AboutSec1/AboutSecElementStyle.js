@@ -37,6 +37,7 @@ padding-left:2rem ;
 export const Text=styled.h1`
 font-size: 2rem;
 margin-bottom: 2rem;
+color:var(--color--DimGrey);
 @media screen and (max-width:768px){
 text-align: center;
     font-size: 1.2rem;
