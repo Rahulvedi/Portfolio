@@ -6,6 +6,7 @@ import {AiFillGithub,AiFillInstagram,AiOutlineTwitter} from 'react-icons/ai'
 export const FooterBox=styled(Box)`
 background-color: #6C63FF;
 max-width: 95rem;
+min-height: 6rem;
 `
 export const Info=styled.div`
 display: flex;

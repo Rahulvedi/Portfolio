@@ -2,7 +2,6 @@ import React from 'react'
 import { Section, ImgWrapper, AboutImg, TextWrapper, Text } from './AboutSecElementStyle'
 import { Button } from '../../globalstyles'
 import { BsDownload } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
 const AboutSec1 = () => {
     return (
         <Section>

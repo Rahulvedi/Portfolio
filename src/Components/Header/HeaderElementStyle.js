@@ -56,6 +56,7 @@ cursor: pointer;
 `
 const CloseIcon = styled(FaTimes)`
 color:#000;
+color:var(--color--primary);
 font-size: 1.5rem;
 cursor: pointer;
 `
